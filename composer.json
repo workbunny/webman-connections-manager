@@ -1,0 +1,31 @@
+{
+  "name": "workbunny/webman-connections-manager",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin workbunny/webman-connections-manager",
+  "authors": [
+    {
+      "name": "chaz6chez",
+      "email": "chaz6chez1993@outlook.com",
+      "homepage": "https://chaz6chez.cn"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "workbunny/webman-rqueue": "^2.1",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "workerman/webman-framework": "^1.0",
+    "symfony/var-dumper": "^6.0",
+    "phpunit/phpunit": "^9.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Workbunny\\WebmanConnectionsManager\\": "src"
+    },
+    "files": [
+      "./src/helpers.php"
+    ]
+  }
+}
